@@ -1,0 +1,4 @@
+*.sublime*
+.settings
+.DS_Store
+

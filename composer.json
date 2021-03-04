@@ -1,0 +1,28 @@
+{
+	"name": "antonythorpe/silverstripe-formfieldadditionalclasses",
+	"description": "Through new methods on the FormField, CSS classes can be added to any Field Holder template.  That is, to the opening div, Validation span, Middle Column/Description div, and Left/Right label.",
+	"type": "silverstripe-vendormodule",
+	"keywords": ["SilverStripe", "forms", "form field", "formfield", "CSS", "templates"],
+    "require": {
+		"silverstripe/framework": "^4.0.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^5.7"
+	},
+    "autoload": {
+        "psr-4": {
+            "AntonyThorpe\\FormFieldAdditionalClasses\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AntonyThorpe\\FormFieldAdditionalClasses\\Tests\\": "tests/"
+        }
+    },
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.*-dev"
+		}
+	},
+	"license": "MIT"
+}
