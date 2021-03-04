@@ -1,8 +1,8 @@
 # Documentation of Silverstripe Form Field Additional Classes
-
+New `FormField` methods listed below: 
 ## Adding New Classes to a Form Field
 * `addHolderClass` adds a CSS class to the opening `div` of the Field Holder template
-* `addHolderValidationMessageClass` provide the class on the validation `span` when a message is sent from the server
+* `addHolderValidationMessageClass` provides the class on the validation `span`
 * `addHolderDescriptionClass` adds a CSS class to the description `div`
 * `addLeftLabelClass` and `addRightLabelClass` adds classes to the left and right labels
 * `addMiddleColumnClass` adds a CSS class to the Middle Column `div`

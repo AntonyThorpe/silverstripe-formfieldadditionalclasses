@@ -90,7 +90,7 @@ class FormFieldExtension extends Extension
         $classes = [];
         $classes[] = $this->owner->Type();
 
-        if ($this->holderClass) {
+        if (!empty($this->holderClass)) {
             $classes = array_merge(
                 array_values($this->holderClass),
                 $classes

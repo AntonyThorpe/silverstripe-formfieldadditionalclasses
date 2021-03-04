@@ -4,7 +4,7 @@ Through new methods on the FormField, CSS classes can be added to any Field Hold
 [![Build Status](https://travis-ci.org/AntonyThorpe/silverstripe-formfieldadditionalclasses.svg?branch=master)](https://travis-ci.org/AntonyThorpe/silverstripe-formfieldadditionalclasses)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/AntonyThorpe/silverstripe-formfieldadditionalclasses/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/AntonyThorpe/silverstripe-formfieldadditionalclasses/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/antonythorpe/silverstripe-formfieldadditionalclasses/v/stable)](https://packagist.org/packages/antonythorpe/silverstripe-formfieldadditionalclasses)
-[![Total Downloads](https://poser.pugx.org/antonythorpe/silverstripe-formfieldadditionalclasses/downloads)](https://packagist.org/packages/antonythorpe/silverstripe-formfieldadditionalclasses)
+[![Total Downloads](https://poser.pugx.org/antonythorpe/silverstripe-formfieldadditionalclasses/downloads)](//packagist.org/packages/antonythorpe/silverstripe-formfieldadditionalclasses)
 [![Latest Unstable Version](https://poser.pugx.org/antonythorpe/silverstripe-formfieldadditionalclasses/v/unstable)](https://packagist.org/packages/antonythorpe/silverstripe-formfieldadditionalclasses)
 [![License](https://poser.pugx.org/antonythorpe/silverstripe-formfieldadditionalclasses/license)](https://packagist.org/packages/antonythorpe/silverstripe-formfieldadditionalclasses)
 
@@ -23,9 +23,9 @@ Extends the `FormField` class
         ->addHolderValidationMessageClass('alert alert-danger')
         ->addHolderDescriptionClass('blueday');
 ```
-Would create
+Would create:
 ```html
-    <div id="Form_Form_CheckboxFieldExample_Holder" class="field form-check">
+    <div id="Form_Form_CheckboxFieldExample_Holder" class="field checkbox form-check">
         <input type="checkbox" name="Example" value="1" class="checkbox form-check-input" id="Form_Form_Example">
         <label class="right form-check-label" for="Form_Form_Example">Checkbox Example</label>
         <span class="message alert alert-danger bad">Opps!</span>
@@ -34,7 +34,7 @@ Would create
 ```
 
 ## Approach of this Module
-The classes in this module only apply to the Field Holder template.  The central `$Field` remains untouched (the existing SilverStripe function `addExtraClass` can be used to add CSS classes to this).  Note: the `addExtraClass` has been removed from the holder templates now that there are new methods to use.  In addition, default classes are in place that match the existing classes in the SilverStripe holder templates so there should not be too much carnage when installing this module into an existing project.
+The classes in this module mostly apply to the Field Holder template.  The central `$Field` remains untouched (the existing SilverStripe function `addExtraClass` can be used to add CSS classes to this).  Note: the `addExtraClass` has been removed from the holder templates now that there are new methods to use.  In addition, default classes are in place that match the existing classes in the SilverStripe holder templates so there should not be too much carnage when installing this module into an existing project.
 
 ## Requirements
 [Silverstripe](http://www.silverstripe.org)
