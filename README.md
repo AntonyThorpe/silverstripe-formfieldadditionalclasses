@@ -1,5 +1,5 @@
 # silverstripe-formfieldadditionalclasses
-Through new methods on the FormField, CSS classes can be added to any Field Holder template.  That is, to the opening div, Validation span, Middle Column/Description div, and Left/Right label.
+Warning: there is an error in this module as it adds classes to all form fields.  Abandoned.  Through new methods on the FormField, CSS classes can be added to any Field Holder template.  That is, to the opening div, Validation span, Middle Column/Description div, and Left/Right label.
 
 [![Build Status](https://travis-ci.org/AntonyThorpe/silverstripe-formfieldadditionalclasses.svg?branch=master)](https://travis-ci.org/AntonyThorpe/silverstripe-formfieldadditionalclasses)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/AntonyThorpe/silverstripe-formfieldadditionalclasses/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/AntonyThorpe/silverstripe-formfieldadditionalclasses/?branch=master)
